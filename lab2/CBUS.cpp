@@ -3,6 +3,21 @@ using namespace std;
 #define MAX 23
 int n,k;
 int c[MAX][MAX];
+stack <int> path;
+
+int result = 0;
+
+bool check(){
+    if(path.size() < 2){
+        return true;
+    }
+return false;
+}
+
+
+
+
+
 
 
 
