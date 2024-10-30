@@ -38,15 +38,18 @@ for(int j = 1; j <= M; j++){
 return;
 }
 
+void input(){
+	cin >> n >> M;
+	for(int i = 0; i < n; i++){
+		cin >> pt[i];
+	}
+}
+
 
 int main(){
-cin >> n >> M;
-for (int i = 0; i < n ; i++){
-	cin >>  pt[i];
-}
+input();
 TRY(0);
 
 cout << result;
- 
-
+return 0;
 }
