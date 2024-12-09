@@ -58,13 +58,17 @@ void TRY(int k){
         }
     }
 }
-
-
-int main() {
+void solve(){
     input();
     for(int t = 1; t <= m; t++) load[t] = 0;
     result = 10000000;
     TRY(1); 
     cout << result; 
+}
+
+
+int main() {
+    input();
+    solve();
     return 0;
 }
